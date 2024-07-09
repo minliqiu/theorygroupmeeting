@@ -26,6 +26,20 @@
             max-width: 100%;
             height: auto;
         }
+        .title-line {
+            display: block;
+            font-size: 0.8em;
+            position: relative;
+            margin-top: 10px;
+            text-align: center;
+            font-family: 'Playfair Display SC', serif; /* Use Playfair Display SC for smaller text */
+        }
+        .uva {
+            color: navy; /* Navy blue color for UVA */
+        }
+        .astro {
+            color: orange; /* Orange color for Astro */
+        }
         h1, h2 {
             font-family: 'Montserrat', sans-serif; /* Apply Helvetica for headings as well */
         }
@@ -49,8 +63,11 @@
 </head>
 <body>
     <header>
-        <img src="images/logo.png" alt="Theory Group Logo" class="logo">
+        <img src="logo.png" alt="Theory Group Logo" class="logo">
         <h1>Theory Group Meeting</h1>
+        <span class="title-line">
+            <span class="uva">UVA</span> <span class="astro">Astro</span>
+        </span>
     </header>
     <main>
         <section id="about">
