@@ -1,2 +1,0 @@
-# theorygroupmeeting
-theory group meeting
