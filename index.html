@@ -61,6 +61,42 @@
             margin-top: auto;
             text-align: center;
         }
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 200px; /* Adjust as needed */
+            background-color: #f0f0f0; /* Light gray background */
+            padding: 20px 0;
+        }
+    
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+    
+        nav ul li {
+            margin-bottom: 10px;
+        }
+    
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            display: block;
+            padding: 10px;
+            transition: all 0.3s ease;
+        }
+    
+        nav ul li a:hover {
+            background-color: #ddd;
+        }
+    
+        main {
+            margin-left: 220px; /* Ensure content doesn't overlap with sidebar */
+        }
     </style>
 </head>
 <body>
@@ -71,6 +107,15 @@
             <span class="uva">UVA</span> <span class="astro">Astro</span>
         </span>
     </header>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#whenandwhere">When and Where</a></li>
+            <li><a href="#Fall2024">Fall 2024</a></li>
+            <li><a href="#signup">Sign up</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
     <main>
         <section id="about">
             <h2>About</h2>
