@@ -97,6 +97,49 @@
         main {
             margin-left: 75px; /* Ensure content doesn't overlap with sidebar */
         }
+        
+        /* mobile style */
+        @media (max-width: 768px) {
+            nav {
+                width: 100%;
+                height: auto;
+                position: relative;
+                padding: 0;
+            }
+
+            nav ul {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                padding: 10px 0;
+            }
+
+            main {
+                margin-left: 0;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .logo {
+                max-width: 80%;
+            }
+
+            .title-line {
+                font-size: 1.5em;
+            }
+
+            h2 {
+                font-size: 18px;
+            }
+
+            p, ul {
+                font-size: 16px;
+            }
+
+            footer {
+                font-size: 14px;
+            }
+        }
     </style>
 </head>
 <body>
