@@ -101,10 +101,17 @@
         nav ul li a:hover {
             background-color: #ddd;
         }
-    
+
         main {
-            margin-left: 75px; /* Ensure content doesn't overlap with sidebar */
+            flex-grow: 1; /* Take up the remaining space */
+            max-width: 800px; /* Ensure the main content doesn't become too wide */
+            margin-left: 220px; /* Offset by the width of the sidebar */
+            padding: 20px; /* Add padding for better appearance */
         }
+    
+/*         main {
+            margin-left: 75px; /* Ensure content doesn't overlap with sidebar */
+        } */
         
         /* mobile style */
         @media (max-width: 768px) {
